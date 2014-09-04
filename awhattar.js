@@ -36,6 +36,11 @@ function processAvatarGroups(n) {
 function processAvatars() {
 	processAvatarGroups("avatar");
 	processAvatarGroups("ProfileTweet-avatar");
+	processAvatarGroups("ProfileCard-avatarImage");
+	processAvatarGroups("ProfileAvatar-image");
+	processAvatarGroups("ProfileCardMini-avatarImage");
+	processAvatarGroups("DashboardProfileCard-avatarImage");
+	processAvatarGroups("Avatar");
 }
 
 function loadHandler() {
